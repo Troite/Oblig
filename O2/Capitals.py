@@ -1,7 +1,7 @@
 a_dictionary = {}
-a_file = open("USCapitals.txt")
+a_file = open("USCapitals.py")
 
-with open("USCapitals.txt") as a_file:
+with open("USCapitals.py") as a_file:
     for line in a_file:
         key, value = line.split(", ")
         a_dictionary[key] = value
